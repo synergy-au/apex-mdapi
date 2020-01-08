@@ -1,0 +1,18 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ApexMDAPI",
+            "versionName": "Version 1.2",
+            "versionNumber": "1.2.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "ApexMDAPI": "0Ho6F000000blNfSAI",
+        "ApexMDAPI@1.2.0-1": "04t2e0000000RpzAAE"
+    }
+}
