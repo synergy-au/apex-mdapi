@@ -129,7 +129,7 @@ private class MetadataServiceTest
     }
         
 	@IsTest
-    private static void coverGeneratedCodeTypes()
+    private static void coverGeneratedCodeTypes1()
     {    	       
         // Reference types
         Test.startTest();
@@ -169,7 +169,17 @@ private class MetadataServiceTest
         new MetadataService.CallOptions_element();
         new MetadataService.CustomFieldTranslation();
         new MetadataService.AnalyticSnapshot();
-        new MetadataService.FlowRule();
+        new MetadataService.UpsertResult();
+        new MetaDataService.Territory2RuleAssociation();
+        new MetadataService.ManagedTopics();
+        new MetaDataService.XOrgHub();
+        new MetaDataService.FlowWaitEventInputParameter();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes2() {
+        Test.startTest();
         new MetadataService.FlowRecordUpdate();
         new MetadataService.CustomSite();
         new MetadataService.ReportBlockInfo();
@@ -220,7 +230,12 @@ private class MetadataServiceTest
         new MetadataService.CustomTabTranslation();
         new MetadataService.BusinessProcess();
         new MetadataService.Flow();
-        new MetadataService.PermissionSet();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes3() {
+        Test.startTest();
         new MetadataService.PermissionSetObjectPermissions();
         new MetadataService.ReportCrossFilter();
         new MetadataService.Report();
@@ -260,6 +275,12 @@ private class MetadataServiceTest
         new MetadataService.ChartSummary();
         new MetadataService.RunTestFailure();
         new MetadataService.Territory();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes4() {
+        Test.startTest();
         new MetadataService.SharedTo();
         new MetadataService.FlowRecordFilter();
         new MetadataService.SubtabComponents();
@@ -299,6 +320,12 @@ private class MetadataServiceTest
         new MetadataService.ActionOverride();
         //new MetadataService.WorkspaceMappings();
         new MetadataService.WorkflowAction();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes5() {
+        Test.startTest();
         new MetadataService.DashboardFolder();
         new MetadataService.PermissionSetApexPageAccess();
         new MetadataService.LayoutTranslation();
@@ -368,6 +395,12 @@ private class MetadataServiceTest
         new MetadataService.checkDeployStatusResponse_element();
         new MetadataService.ReportColorRange();
         new MetadataService.SearchLayouts();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes6() {
+        Test.startTest();
         new MetadataService.LetterheadHeaderFooter();
         new MetadataService.HomePageComponent();
         new MetadataService.MobileSettings();
@@ -443,171 +476,12 @@ private class MetadataServiceTest
 		new MetadataService.FolderShare();   
 		new MetadataService.ApprovalEntryCriteria();                                
 		new MetadataService.ProductSettings();                                
-		new MetadataService.OpportunitySettings();              
-		new MetadataService.LiveChatDeployment();                                
-		new MetadataService.QuickActionLayoutColumn();           
-		new MetadataService.GlobalQuickActionTranslation();      
-		new MetadataService.ApprovalStepApprover();                                
-		new MetadataService.QuoteSettings();         
-		new MetadataService.LiveChatButton();                                
-		new MetadataService.Network();
-		new MetadataService.LiveChatDeploymentDomainWhitelist();
-		new MetadataService.KnowledgeLanguageSettings();
-		new MetadataService.Approver();
-		new MetadataService.SamlSsoConfig();
-		new MetadataService.ApprovalSubmitter();
-		new MetadataService.KeyboardShortcuts();
-		new MetadataService.ApprovalStep();
-		new MetadataService.AgentConfigAssignments();
-		new MetadataService.QuickAction();
-		new MetadataService.DefaultShortcut();
-		new MetadataService.ApprovalAction();
-		new MetadataService.KnowledgeLanguage();
-		new MetadataService.LiveChatButtonSkills();
-		new MetadataService.SkillUserAssignments();
-		new MetadataService.NextAutomatedApprover();
-		new MetadataService.ApprovalProcess();
-		new MetadataService.QuickActionLayout();
-		//new MetadataService.PushNotifications();
-		new MetadataService.ForecastRangeSettings();
-		new MetadataService.IdeaReputationLevel();
-		new MetadataService.NetworkTabSet();
-		new MetadataService.SkillProfileAssignments();
-		new MetadataService.CustomShortcut();
-		//new MetadataService.PagesToOpen();
-		new MetadataService.AgentConfigUserAssignments();
-		new MetadataService.NetworkMemberGroup();
-		new MetadataService.FindSimilarOppFilter();
-		new MetadataService.QuickActionTranslation();				
-        new MetadataService.WorkflowFlowActionParameter();
-        new MetadataService.ConnectedAppOauthConfig();
-        new MetadataService.FlowLoop();
-        new MetadataService.renameMetadata_element();
-        new MetadataService.ForecastingTypeSettings();
-        new MetadataService.PermissionSetApplicationVisibility();
-        new MetadataService.FeedLayout();
-        new MetadataService.AppMenuItem();
-        new MetadataService.deleteMetadataResponse_element();
-        new MetadataService.ConnectedAppAttribute();
-        new MetadataService.ReportChartComponentLayoutItem();
-        new MetadataService.AppMenu();
-        new MetadataService.ConnectedAppIpRange();
-        new MetadataService.Error();
-        new MetadataService.ComponentInstanceProperty();
-        new MetadataService.BusinessHoursEntry();
-        new MetadataService.RelatedContent();
-        new MetadataService.SupervisorAgentConfigSkills();
-        new MetadataService.ComponentInstance();
-        new MetadataService.SidebarComponent();
-        new MetadataService.Holiday();
-        new MetadataService.SaveResult();
-        new MetadataService.readMetadataResponse_element();
-        new MetadataService.FlexiPageRegion();
-        new MetadataService.deleteMetadata_element();
-        new MetadataService.ConnectedAppMobileDetailConfig();
-        new MetadataService.AccountSettings();
-        new MetadataService.PermissionSetRecordTypeVisibility();
-        new MetadataService.OrderSettings();
-        new MetadataService.ProfileUserPermission();
-        new MetadataService.LookupFilterTranslation();
-        new MetadataService.WorkflowFlowAction();
-        new MetadataService.ConnectedApp();
-        new MetadataService.SiteDotCom();
-        new MetadataService.createMetadataResponse_element();
-        new MetadataService.updateMetadata_element();
-        new MetadataService.LookupFilter();
-        new MetadataService.updateMetadataResponse_element();
-        new MetadataService.FlexiPage();
-        new MetadataService.ConnectedAppSamlConfig();
-        new MetadataService.createMetadata_element();
-        new MetadataService.FeedLayoutComponent();
-        new MetadataService.PostTemplate();
-        new MetadataService.RelatedContentItem();
-        new MetadataService.readMetadata_element();
-        new MetadataService.ReadWorkflowRuleResult();
-        new MetadataService.readWorkflowRuleResponse_element();
-        new MetadataService.ReadSamlSsoConfigResult();
-        new MetadataService.readSamlSsoConfigResponse_element();
-        new MetadataService.ReadCustomLabelResult();
-        new MetadataService.readCustomLabelResponse_element();
-        new MetadataService.ReadBusinessHoursEntryResult();
-        new MetadataService.readBusinessHoursEntryResponse_element();
-        new MetadataService.ReadMobileSettingsResult();
-        new MetadataService.readMobileSettingsResponse_element();
-        new MetadataService.ReadChatterAnswersSettingsResult();
-        new MetadataService.readChatterAnswersSettingsResponse_element();
-        new MetadataService.ReadSharingRulesResult();
-        new MetadataService.readSharingRulesResponse_element();
-        new MetadataService.ReadPortalResult();
-        new MetadataService.readPortalResponse_element();
-        new MetadataService.ReadSkillResult();
-        new MetadataService.readSkillResponse_element();
-        new MetadataService.ReadEscalationRulesResult();
-        new MetadataService.readEscalationRulesResponse_element();
-        new MetadataService.ReadCustomDataTypeResult();
-        new MetadataService.readCustomDataTypeResponse_element();
-        new MetadataService.ReadExternalDataSourceResult();
-        new MetadataService.readExternalDataSourceResponse_element();
-        new MetadataService.ReadEntitlementProcessResult();
-        new MetadataService.readEntitlementProcessResponse_element();
-        new MetadataService.ReadRecordTypeResult();
-        new MetadataService.readRecordTypeResponse_element();
-        new MetadataService.ReadScontrolResult();
-        new MetadataService.readScontrolResponse_element();
-        new MetadataService.ReadDataCategoryGroupResult();
-        new MetadataService.readDataCategoryGroupResponse_element();
-        new MetadataService.ReadValidationRuleResult();
-        new MetadataService.readValidationRuleResponse_element();
-        new MetadataService.ReadProfileResult();
-        new MetadataService.readProfileResponse_element();
-        new MetadataService.ReadIdeasSettingsResult();
-        new MetadataService.readIdeasSettingsResponse_element();
-        new MetadataService.ReadConnectedAppResult();
-        new MetadataService.readConnectedAppResponse_element();
-        new MetadataService.ReadApexPageResult();
-        new MetadataService.readApexPageResponse_element();
-        new MetadataService.ReadProductSettingsResult();
-        new MetadataService.readProductSettingsResponse_element();
-        new MetadataService.ReadLiveAgentSettingsResult();
-        new MetadataService.readLiveAgentSettingsResponse_element();
-        new MetadataService.ReadOpportunitySettingsResult();
-        new MetadataService.readOpportunitySettingsResponse_element();
-        new MetadataService.ReadLiveChatDeploymentResult();
-        new MetadataService.readLiveChatDeploymentResponse_element();
-        new MetadataService.ReadActivitiesSettingsResult();
-        new MetadataService.readActivitiesSettingsResponse_element();
-        new MetadataService.ReadLayoutResult();
-        new MetadataService.readLayoutResponse_element();
-        new MetadataService.ReadWebLinkResult();
-        new MetadataService.readWebLinkResponse_element();
-        new MetadataService.ReadSiteDotComResult();
-        new MetadataService.readSiteDotComResponse_element();
-        new MetadataService.ReadCompanySettingsResult();
-        new MetadataService.readCompanySettingsResponse_element();
-        new MetadataService.ReadHomePageLayoutResult();
-        new MetadataService.readHomePageLayoutResponse_element();
-        new MetadataService.ReadDashboardResult();
-        new MetadataService.readDashboardResponse_element();
-        new MetadataService.ReadAssignmentRulesResult();
-        new MetadataService.readAssignmentRulesResponse_element();
-        new MetadataService.ReadAnalyticSnapshotResult();
-        new MetadataService.readAnalyticSnapshotResponse_element();
-        new MetadataService.ReadEscalationRuleResult();
-        new MetadataService.readEscalationRuleResponse_element();
-        new MetadataService.ReadCustomSiteResult();
-        new MetadataService.readCustomSiteResponse_element();
-        new MetadataService.ReadGroupResult();
-        new MetadataService.readGroupResponse_element();
-        new MetadataService.ReadReportTypeResult();
-        new MetadataService.readReportTypeResponse_element();
-        new MetadataService.ReadQuickActionResult();
-        new MetadataService.readQuickActionResponse_element();
-        new MetadataService.ReadCustomPageWebLinkResult();
-        new MetadataService.readCustomPageWebLinkResponse_element();
-        new MetadataService.ReadApexComponentResult();
-        new MetadataService.readApexComponentResponse_element();
-        new MetadataService.ReadEntitlementTemplateResult();
-        new MetadataService.readEntitlementTemplateResponse_element();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes7() {
+        Test.startTest();
         new MetadataService.ReadFlexiPageResult();
         new MetadataService.readFlexiPageResponse_element();
         new MetadataService.ReadWorkflowResult();
@@ -672,6 +546,197 @@ private class MetadataServiceTest
         new MetadataService.readMilestoneTypeResponse_element();
         new MetadataService.ReadAssignmentRuleResult();
         new MetadataService.readAssignmentRuleResponse_element();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes8() {
+        Test.startTest();
+        new MetadataService.OpportunitySettings();              
+		new MetadataService.LiveChatDeployment();                                
+		new MetadataService.QuickActionLayoutColumn();           
+		new MetadataService.GlobalQuickActionTranslation();      
+		new MetadataService.ApprovalStepApprover();                                
+		new MetadataService.QuoteSettings();         
+		new MetadataService.LiveChatButton();                                
+		new MetadataService.Network();
+		new MetadataService.LiveChatDeploymentDomainWhitelist();
+		new MetadataService.KnowledgeLanguageSettings();
+		new MetadataService.Approver();
+		new MetadataService.SamlSsoConfig();
+		new MetadataService.ApprovalSubmitter();
+		new MetadataService.KeyboardShortcuts();
+		new MetadataService.ApprovalStep();
+		new MetadataService.AgentConfigAssignments();
+		new MetadataService.QuickAction();
+		new MetadataService.DefaultShortcut();
+		new MetadataService.ApprovalAction();
+		new MetadataService.KnowledgeLanguage();
+		new MetadataService.LiveChatButtonSkills();
+		new MetadataService.SkillUserAssignments();
+		new MetadataService.NextAutomatedApprover();
+		new MetadataService.ApprovalProcess();
+		new MetadataService.QuickActionLayout();
+		//new MetadataService.PushNotifications();
+		new MetadataService.ForecastRangeSettings();
+		new MetadataService.IdeaReputationLevel();
+		new MetadataService.NetworkTabSet();
+		new MetadataService.SkillProfileAssignments();
+		new MetadataService.CustomShortcut();
+		//new MetadataService.PagesToOpen();
+		new MetadataService.AgentConfigUserAssignments();
+		new MetadataService.NetworkMemberGroup();
+		new MetadataService.FindSimilarOppFilter();
+		new MetadataService.QuickActionTranslation();				
+        new MetadataService.WorkflowFlowActionParameter();
+        new MetadataService.ConnectedAppOauthConfig();
+        new MetadataService.FlowLoop();
+        new MetadataService.renameMetadata_element();
+        new MetadataService.ForecastingTypeSettings();
+        new MetadataService.PermissionSetApplicationVisibility();
+        new MetadataService.FeedLayout();
+        new MetadataService.AppMenuItem();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes9() {
+        Test.startTest();
+        new MetadataService.PermissionSet();
+        new MetadataService.FlowRule();
+        new MetadataService.deleteMetadataResponse_element();
+        new MetadataService.ConnectedAppAttribute();
+        new MetadataService.ReportChartComponentLayoutItem();
+        new MetadataService.AppMenu();
+        new MetadataService.ConnectedAppIpRange();
+        new MetadataService.Error();
+        new MetadataService.ComponentInstanceProperty();
+        new MetadataService.BusinessHoursEntry();
+        new MetadataService.RelatedContent();
+        new MetadataService.SupervisorAgentConfigSkills();
+        new MetadataService.ComponentInstance();
+        new MetadataService.SidebarComponent();
+        new MetadataService.Holiday();
+        new MetadataService.SaveResult();
+        new MetadataService.readMetadataResponse_element();
+        new MetadataService.FlexiPageRegion();
+        new MetadataService.deleteMetadata_element();
+        new MetadataService.ConnectedAppMobileDetailConfig();
+        new MetadataService.AccountSettings();
+        new MetadataService.PermissionSetRecordTypeVisibility();
+        new MetadataService.OrderSettings();
+        new MetadataService.ProfileUserPermission();
+        new MetadataService.LookupFilterTranslation();
+        new MetadataService.WorkflowFlowAction();
+        new MetadataService.ConnectedApp();
+        new MetadataService.SiteDotCom();
+        new MetadataService.createMetadataResponse_element();
+        new MetadataService.updateMetadata_element();
+        new MetadataService.LookupFilter();
+        new MetadataService.updateMetadataResponse_element();
+        new MetadataService.FlexiPage();
+        new MetadataService.ConnectedAppSamlConfig();
+        new MetadataService.createMetadata_element();
+        new MetadataService.FeedLayoutComponent();
+        new MetadataService.PostTemplate();
+        new MetadataService.RelatedContentItem();
+        new MetadataService.readMetadata_element();
+        new MetadataService.ReadWorkflowRuleResult();
+        new MetadataService.readWorkflowRuleResponse_element();
+        new MetadataService.ReadSamlSsoConfigResult();
+        new MetadataService.readSamlSsoConfigResponse_element();
+        new MetadataService.ReadCustomLabelResult();
+        new MetadataService.readCustomLabelResponse_element();
+        new MetadataService.ReadBusinessHoursEntryResult();
+        new MetadataService.readBusinessHoursEntryResponse_element();
+        new MetadataService.ReadMobileSettingsResult();
+        new MetadataService.readMobileSettingsResponse_element();
+        new MetadataService.ReadChatterAnswersSettingsResult();
+        new MetadataService.readChatterAnswersSettingsResponse_element();
+        new MetadataService.ReadSharingRulesResult();
+        new MetadataService.readSharingRulesResponse_element();
+        new MetadataService.ReadPortalResult();
+        new MetadataService.readPortalResponse_element();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes10() {
+        Test.startTest();
+        new MetadataService.ReadSkillResult();
+        new MetadataService.readSkillResponse_element();
+        new MetadataService.ReadEscalationRulesResult();
+        new MetadataService.readEscalationRulesResponse_element();
+        new MetadataService.ReadCustomDataTypeResult();
+        new MetadataService.readCustomDataTypeResponse_element();
+        new MetadataService.ReadExternalDataSourceResult();
+        new MetadataService.readExternalDataSourceResponse_element();
+        new MetadataService.ReadEntitlementProcessResult();
+        new MetadataService.readEntitlementProcessResponse_element();
+        new MetadataService.ReadRecordTypeResult();
+        new MetadataService.readRecordTypeResponse_element();
+        new MetadataService.ReadScontrolResult();
+        new MetadataService.readScontrolResponse_element();
+        new MetadataService.ReadDataCategoryGroupResult();
+        new MetadataService.readDataCategoryGroupResponse_element();
+        new MetadataService.ReadValidationRuleResult();
+        new MetadataService.readValidationRuleResponse_element();
+        new MetadataService.ReadProfileResult();
+        new MetadataService.readProfileResponse_element();
+        new MetadataService.ReadIdeasSettingsResult();
+        new MetadataService.readIdeasSettingsResponse_element();
+        new MetadataService.ReadConnectedAppResult();
+        new MetadataService.readConnectedAppResponse_element();
+        new MetadataService.ReadApexPageResult();
+        new MetadataService.readApexPageResponse_element();
+        new MetadataService.ReadProductSettingsResult();
+        new MetadataService.readProductSettingsResponse_element();
+        new MetadataService.ReadLiveAgentSettingsResult();
+        new MetadataService.readLiveAgentSettingsResponse_element();
+        new MetadataService.ReadOpportunitySettingsResult();
+        new MetadataService.readOpportunitySettingsResponse_element();
+        new MetadataService.ReadLiveChatDeploymentResult();
+        new MetadataService.readLiveChatDeploymentResponse_element();
+        new MetadataService.ReadActivitiesSettingsResult();
+        new MetadataService.readActivitiesSettingsResponse_element();
+        new MetadataService.ReadLayoutResult();
+        new MetadataService.readLayoutResponse_element();
+        new MetadataService.ReadWebLinkResult();
+        new MetadataService.readWebLinkResponse_element();
+        new MetadataService.ReadSiteDotComResult();
+        new MetadataService.readSiteDotComResponse_element();
+        new MetadataService.ReadCompanySettingsResult();
+        new MetadataService.readCompanySettingsResponse_element();
+        new MetadataService.ReadHomePageLayoutResult();
+        new MetadataService.readHomePageLayoutResponse_element();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes11() {
+        Test.startTest();
+        new MetadataService.ReadDashboardResult();
+        new MetadataService.readDashboardResponse_element();
+        new MetadataService.ReadAssignmentRulesResult();
+        new MetadataService.readAssignmentRulesResponse_element();
+        new MetadataService.ReadAnalyticSnapshotResult();
+        new MetadataService.readAnalyticSnapshotResponse_element();
+        new MetadataService.ReadEscalationRuleResult();
+        new MetadataService.readEscalationRuleResponse_element();
+        new MetadataService.ReadCustomSiteResult();
+        new MetadataService.readCustomSiteResponse_element();
+        new MetadataService.ReadGroupResult();
+        new MetadataService.readGroupResponse_element();
+        new MetadataService.ReadReportTypeResult();
+        new MetadataService.readReportTypeResponse_element();
+        new MetadataService.ReadQuickActionResult();
+        new MetadataService.readQuickActionResponse_element();
+        new MetadataService.ReadCustomPageWebLinkResult();
+        new MetadataService.readCustomPageWebLinkResponse_element();
+        new MetadataService.ReadApexComponentResult();
+        new MetadataService.readApexComponentResponse_element();
+        new MetadataService.ReadEntitlementTemplateResult();
+        new MetadataService.readEntitlementTemplateResponse_element();
         new MetadataService.ReadCompactLayoutResult();
         new MetadataService.readCompactLayoutResponse_element();
         new MetadataService.ReadLiveChatAgentConfigResult();
@@ -702,6 +767,12 @@ private class MetadataServiceTest
         new MetadataService.readCustomObjectTranslationResponse_element();
         new MetadataService.ReadCustomApplicationResult();
         new MetadataService.readCustomApplicationResponse_element();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes12() {
+        Test.startTest();
         new MetadataService.ReadKnowledgeSettingsResult();
         new MetadataService.readKnowledgeSettingsResponse_element();
         new MetadataService.ReadCaseSettingsResult();
@@ -749,6 +820,12 @@ private class MetadataServiceTest
         new MetadataService.CustomMetadata();
         new MetadataService.VisualizationPlugin();
         new MetadataService.RelatedList();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes13() {
+        Test.startTest();
         new MetadataService.FlowActionCallOutputParameter();
         new MetadataService.FlowActionCall();
         new MetadataService.CustomPermission();
@@ -803,11 +880,13 @@ private class MetadataServiceTest
         new MetadataService.VisualizationType();
         new MetadataService.CustomMetadataValue();
         new MetadataService.HistoryRetentionPolicy();
-        new MetadataService.UpsertResult();
-        new MetaDataService.Territory2RuleAssociation();
-        new MetadataService.ManagedTopics();
-        new MetaDataService.XOrgHub();
-        new MetaDataService.FlowWaitEventInputParameter();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes14()
+    {    	       
+        Test.startTest();
         new MetadataService.ManagedTopic();
         new MetadataService.Territory2RuleItem();
         new MetadataService.DataPipeline();
@@ -851,6 +930,13 @@ private class MetadataServiceTest
         new MetadataService.CustomPermissionDependencyRequired();
         new MetadataService.ReputationBranding();
         new MetadataService.AuraDefinitionBundle();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes15()
+    {    	       
+        Test.startTest();
         new MetadataService.FeedItemSettings();
         new MetadataService.FlowBaseElement();
         new MetadataService.Territory2();        
@@ -895,6 +981,13 @@ private class MetadataServiceTest
         new MetaDataService.ReadMatchingRuleResult();
         new MetaDataService.readMatchingRuleResponse_element();
         new MetaDataService.SharingOwnerRule();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes16()
+    {    	       
+        Test.startTest();
         new MetaDataService.PicklistEntry();
         new MetaDataService.ValueTypeField();
         new MetaDataService.DashboardGridComponent();
@@ -937,6 +1030,13 @@ private class MetadataServiceTest
         new MetadataService.GlobalPicklistValue();
         new MetadataService.PicklistValue();
         new MetadataService.KeywordList();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes17()
+    {    	       
+        Test.startTest();
         new MetadataService.EmbeddedServiceLiveAgent();
         new MetadataService.GlobalValueSet();
         new MetadataService.OrganizationSettingsDetail();
@@ -978,6 +1078,13 @@ private class MetadataServiceTest
         new MetadataService.NavigationLinkSet();
         new MetadataService.StandardValueSetTranslation();
         new MetadataService.OpportunityListFieldsUnselectedSettings();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void coverGeneratedCodeTypes18()
+    {    	       
+        Test.startTest();
         new MetadataService.GlobalValueSetTranslation();
         new MetadataService.StandardValue();
         new MetadataService.ContentAssetLink();
@@ -991,7 +1098,7 @@ private class MetadataServiceTest
     }
 
     @IsTest
-    private static void elfMissingGetRecordsTest() { // elf patch
+    private static void elfMissingGetRecordsTest1() { // elf patch
         Test.startTest();
         new MetadataService.ReadFlowResult().getRecords();
         new MetadataService.ReadWorkflowResult().getRecords();
@@ -1004,125 +1111,6 @@ private class MetadataServiceTest
         new MetadataService.ReadEscalationRuleResult().getRecords();
         new MetadataService.ReadPostTemplateResult().getRecords();
         new MetadataService.ReadApprovalProcessResult().getRecords();
-        new MetadataService.ReadHomePageComponentResult().getRecords();
-        new MetadataService.ReadHomePageLayoutResult().getRecords();
-        new MetadataService.ReadCustomObjectTranslationResult().getRecords();
-        new MetadataService.ReadTranslationsResult().getRecords();
-        new MetadataService.ReadProfileResult().getRecords();
-        new MetadataService.ReadPermissionSetResult().getRecords();
-        new MetadataService.ReadDataCategoryGroupResult().getRecords();
-        new MetadataService.ReadRemoteSiteSettingResult().getRecords();
-        new MetadataService.ReadPackageResult().getRecords();
-        new MetadataService.ReadAuthProviderResult().getRecords();
-        new MetadataService.ReadKnowledgeSettingsResult().getRecords();
-        new MetadataService.ReadSharingSetResult().getRecords();
-        new MetadataService.ReadSecuritySettingsResult().getRecords();
-        new MetadataService.ReadIdeasSettingsResult().getRecords();
-        new MetadataService.ReadChatterAnswersSettingsResult().getRecords();
-        new MetadataService.ReadCommunityResult().getRecords();
-        new MetadataService.ReadActivitiesSettingsResult().getRecords();
-        new MetadataService.ReadContractSettingsResult().getRecords();
-        new MetadataService.ReadOrderSettingsResult().getRecords();
-        new MetadataService.ReadOpportunitySettingsResult().getRecords();
-        new MetadataService.ReadProductSettingsResult().getRecords();
-        new MetadataService.ReadQuoteSettingsResult().getRecords();
-        new MetadataService.ReadCallCenterResult().getRecords();
-        new MetadataService.ReadEntitlementProcessResult().getRecords();
-        new MetadataService.ReadMilestoneTypeResult().getRecords();
-        new MetadataService.ReadEntitlementTemplateResult().getRecords();
-        new MetadataService.ReadEntitlementSettingsResult().getRecords();
-        new MetadataService.ReadBusinessHoursSettingsResult().getRecords();
-        new MetadataService.ReadBusinessHoursEntryResult().getRecords();
-        new MetadataService.ReadConnectedAppResult().getRecords();
-        new MetadataService.ReadAppMenuResult().getRecords();
-        new MetadataService.ReadMobileSettingsResult().getRecords();
-        new MetadataService.ReadNetworkResult().getRecords();
-        new MetadataService.ReadCompanySettingsResult().getRecords();
-        new MetadataService.ReadForecastingSettingsResult().getRecords();
-        new MetadataService.ReadSamlSsoConfigResult().getRecords();
-        new MetadataService.ReadLiveAgentSettingsResult().getRecords();
-        new MetadataService.ReadSkillResult().getRecords();
-        new MetadataService.ReadLiveChatDeploymentResult().getRecords();
-        new MetadataService.ReadLiveChatButtonResult().getRecords();
-        new MetadataService.ReadLiveChatAgentConfigResult().getRecords();
-        new MetadataService.ReadSynonymDictionaryResult().getRecords();
-        new MetadataService.ReadFolderResult().getRecords();
-        new MetadataService.ReadReportFolderResult().getRecords();
-        new MetadataService.ReadDashboardFolderResult().getRecords();
-        new MetadataService.ReadDocumentFolderResult().getRecords();
-        new MetadataService.ReadEmailFolderResult().getRecords();
-        new MetadataService.ReadRoleOrTerritoryResult().getRecords();
-        new MetadataService.ReadWorkflowActionResult().getRecords();
-        new MetadataService.ReadSiteDotComResult().getRecords();
-        new MetadataService.ReadWorkflowTaskResult().getRecords();
-        new MetadataService.ReadWorkflowSendResult().getRecords();
-        new MetadataService.ReadWorkflowOutboundMessageResult().getRecords();
-        new MetadataService.ReadWorkflowKnowledgePublishResult().getRecords();
-        new MetadataService.ReadWorkflowFieldUpdateResult().getRecords();
-        new MetadataService.ReadWorkflowAlertResult().getRecords();
-        new MetadataService.ReadVisualizationPluginResult().getRecords();
-        new MetadataService.ReadCustomMetadataResult().getRecords();
-        new MetadataService.ReadNameSettingsResult().getRecords();
-        new MetadataService.ReadMarketingActionSettingsResult().getRecords();
-        new MetadataService.ReadCustomPermissionResult().getRecords();
-        new MetadataService.ReadAuraDefinitionBundleResult().getRecords();
-        new MetadataService.ReadCorsWhitelistOriginResult().getRecords();
-        new MetadataService.ReadManagedTopicsResult().getRecords();
-        new MetadataService.ReadTerritory2Result().getRecords();
-        new MetadataService.ReadTerritory2ModelResult().getRecords();
-        new MetadataService.ReadTerritory2SettingsResult().getRecords();
-        new MetadataService.ReadTerritory2TypeResult().getRecords();
-        new MetadataService.ReadXOrgHubResult().getRecords();
-        new MetadataService.ReadActionLinkGroupTemplateResult().getRecords();
-        new MetadataService.ReadLicenseDefinitionResult().getRecords();
-        new MetadataService.ReadMarketingResourceTypeResult().getRecords();
-        new MetadataService.ReadMatchingRuleResult().getRecords();
-        new MetadataService.ReadMatchingRulesResult().getRecords();
-        new MetadataService.ReadNamedCredentialResult().getRecords();
-        new MetadataService.ReadPersonalJourneySettingsResult().getRecords();
-        new MetadataService.ReadSharingRulesResult().getRecords();
-        new MetadataService.ReadSharingBaseRuleResult().getRecords();
-        new MetadataService.ReadSharingCriteriaRuleResult().getRecords();
-        new MetadataService.ReadSharingOwnerRuleResult().getRecords();
-        new MetadataService.ReadSharingTerritoryRuleResult().getRecords();
-        new MetadataService.ReadMetadataWithContentResult().getRecords();
-        new MetadataService.ReadCustomSiteResult().getRecords();
-        new MetadataService.ReadListViewResult().getRecords();
-        new MetadataService.ReadInstalledPackageResult().getRecords();
-        new MetadataService.ReadCustomFieldResult().getRecords();
-        new MetadataService.ReadFieldSetResult().getRecords();
-        new MetadataService.ReadPicklistValueResult().getRecords();
-        new MetadataService.ReadRecordTypeResult().getRecords();
-        new MetadataService.ReadWebLinkResult().getRecords();
-        new MetadataService.ReadAddressSettingsResult().getRecords();
-        new MetadataService.ReadCaseSettingsResult().getRecords();
-        new MetadataService.ReadCustomObjectResult().getRecords();
-        new MetadataService.ReadLayoutResult().getRecords();
-        new MetadataService.ReadEmailTemplateResult().getRecords();
-        new MetadataService.ReadScontrolResult().getRecords();
-        new MetadataService.ReadApexPageResult().getRecords();
-        new MetadataService.ReadApexComponentResult().getRecords();
-        new MetadataService.ReadApexClassResult().getRecords();
-        new MetadataService.ReadApexTriggerResult().getRecords();
-        new MetadataService.ReadStaticResourceResult().getRecords();
-        new MetadataService.ReadDocumentResult().getRecords();
-        new MetadataService.ReadCustomLabelsResult().getRecords();
-        new MetadataService.ReadCustomLabelResult().getRecords();
-        new MetadataService.ReadAccountSettingsResult().getRecords();
-        new MetadataService.ReadQueueResult().getRecords();
-        new MetadataService.ReadCustomDataTypeResult().getRecords();
-        new MetadataService.ReadExternalDataSourceResult().getRecords();
-        new MetadataService.ReadGroupResult().getRecords();
-        new MetadataService.ReadBusinessProcessResult().getRecords();
-        new MetadataService.ReadCompactLayoutResult().getRecords();
-        new MetadataService.ReadSharingReasonResult().getRecords();
-        new MetadataService.ReadValidationRuleResult().getRecords();
-        new MetadataService.ReadReportTypeResult().getRecords();
-        new MetadataService.ReadReportResult().getRecords();
-        new MetadataService.ReadDashboardResult().getRecords();
-        new MetadataService.ReadAnalyticSnapshotResult().getRecords();
-        new MetadataService.ReadCustomPageWebLinkResult().getRecords();
-        new MetadataService.ReadQuickActionResult().getRecords();
         new MetadataService.ReadFlexiPageResult().getRecords();
         new MetadataService.ReadCustomTabResult().getRecords();
         new MetadataService.ReadCustomApplicationComponentResult().getRecords();
@@ -1174,7 +1162,150 @@ private class MetadataServiceTest
     }
 
     @IsTest
-    private static void elfMissingGetResultTest() { // elf patch
+    private static void elfMissingGetRecordsTest2() { // elf patch
+        Test.startTest();
+        new MetadataService.ReadHomePageComponentResult().getRecords();
+        new MetadataService.ReadHomePageLayoutResult().getRecords();
+        new MetadataService.ReadCustomObjectTranslationResult().getRecords();
+        new MetadataService.ReadTranslationsResult().getRecords();
+        new MetadataService.ReadProfileResult().getRecords();
+        new MetadataService.ReadPermissionSetResult().getRecords();
+        new MetadataService.ReadDataCategoryGroupResult().getRecords();
+        new MetadataService.ReadRemoteSiteSettingResult().getRecords();
+        new MetadataService.ReadPackageResult().getRecords();
+        new MetadataService.ReadAuthProviderResult().getRecords();
+        new MetadataService.ReadKnowledgeSettingsResult().getRecords();
+        new MetadataService.ReadSharingSetResult().getRecords();
+        new MetadataService.ReadSecuritySettingsResult().getRecords();
+        new MetadataService.ReadIdeasSettingsResult().getRecords();
+        new MetadataService.ReadChatterAnswersSettingsResult().getRecords();
+        new MetadataService.ReadCommunityResult().getRecords();
+        new MetadataService.ReadActivitiesSettingsResult().getRecords();
+        new MetadataService.ReadContractSettingsResult().getRecords();
+        new MetadataService.ReadOrderSettingsResult().getRecords();
+        new MetadataService.ReadOpportunitySettingsResult().getRecords();
+        new MetadataService.ReadProductSettingsResult().getRecords();
+        new MetadataService.ReadQuoteSettingsResult().getRecords();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetRecordsTest3() { // elf patch
+        Test.startTest();
+        new MetadataService.ReadCallCenterResult().getRecords();
+        new MetadataService.ReadEntitlementProcessResult().getRecords();
+        new MetadataService.ReadMilestoneTypeResult().getRecords();
+        new MetadataService.ReadEntitlementTemplateResult().getRecords();
+        new MetadataService.ReadEntitlementSettingsResult().getRecords();
+        new MetadataService.ReadBusinessHoursSettingsResult().getRecords();
+        new MetadataService.ReadBusinessHoursEntryResult().getRecords();
+        new MetadataService.ReadConnectedAppResult().getRecords();
+        new MetadataService.ReadAppMenuResult().getRecords();
+        new MetadataService.ReadMobileSettingsResult().getRecords();
+        new MetadataService.ReadNetworkResult().getRecords();
+        new MetadataService.ReadCompanySettingsResult().getRecords();
+        new MetadataService.ReadForecastingSettingsResult().getRecords();
+        new MetadataService.ReadSamlSsoConfigResult().getRecords();
+        new MetadataService.ReadLiveAgentSettingsResult().getRecords();
+        new MetadataService.ReadSkillResult().getRecords();
+        new MetadataService.ReadLiveChatDeploymentResult().getRecords();
+        new MetadataService.ReadLiveChatButtonResult().getRecords();
+        new MetadataService.ReadLiveChatAgentConfigResult().getRecords();
+        new MetadataService.ReadSynonymDictionaryResult().getRecords();
+        new MetadataService.ReadFolderResult().getRecords();
+        new MetadataService.ReadReportFolderResult().getRecords();
+        new MetadataService.ReadDashboardFolderResult().getRecords();
+        new MetadataService.ReadDocumentFolderResult().getRecords();
+        new MetadataService.ReadEmailFolderResult().getRecords();
+        new MetadataService.ReadRoleOrTerritoryResult().getRecords();
+        new MetadataService.ReadWorkflowActionResult().getRecords();
+        new MetadataService.ReadSiteDotComResult().getRecords();
+        new MetadataService.ReadWorkflowTaskResult().getRecords();
+        new MetadataService.ReadWorkflowSendResult().getRecords();
+        new MetadataService.ReadWorkflowOutboundMessageResult().getRecords();
+        new MetadataService.ReadWorkflowKnowledgePublishResult().getRecords();
+        new MetadataService.ReadWorkflowFieldUpdateResult().getRecords();
+        new MetadataService.ReadWorkflowAlertResult().getRecords();
+        new MetadataService.ReadVisualizationPluginResult().getRecords();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetRecordsTest4() { // elf patch
+        Test.startTest();
+        new MetadataService.ReadCustomMetadataResult().getRecords();
+        new MetadataService.ReadNameSettingsResult().getRecords();
+        new MetadataService.ReadMarketingActionSettingsResult().getRecords();
+        new MetadataService.ReadCustomPermissionResult().getRecords();
+        new MetadataService.ReadAuraDefinitionBundleResult().getRecords();
+        new MetadataService.ReadCorsWhitelistOriginResult().getRecords();
+        new MetadataService.ReadManagedTopicsResult().getRecords();
+        new MetadataService.ReadTerritory2Result().getRecords();
+        new MetadataService.ReadTerritory2ModelResult().getRecords();
+        new MetadataService.ReadTerritory2SettingsResult().getRecords();
+        new MetadataService.ReadTerritory2TypeResult().getRecords();
+        new MetadataService.ReadXOrgHubResult().getRecords();
+        new MetadataService.ReadActionLinkGroupTemplateResult().getRecords();
+        new MetadataService.ReadLicenseDefinitionResult().getRecords();
+        new MetadataService.ReadMarketingResourceTypeResult().getRecords();
+        new MetadataService.ReadMatchingRuleResult().getRecords();
+        new MetadataService.ReadMatchingRulesResult().getRecords();
+        new MetadataService.ReadNamedCredentialResult().getRecords();
+        new MetadataService.ReadPersonalJourneySettingsResult().getRecords();
+        new MetadataService.ReadSharingRulesResult().getRecords();
+        new MetadataService.ReadSharingBaseRuleResult().getRecords();
+        new MetadataService.ReadSharingCriteriaRuleResult().getRecords();
+        new MetadataService.ReadSharingOwnerRuleResult().getRecords();
+        new MetadataService.ReadSharingTerritoryRuleResult().getRecords();
+        new MetadataService.ReadMetadataWithContentResult().getRecords();
+        new MetadataService.ReadCustomSiteResult().getRecords();
+        new MetadataService.ReadListViewResult().getRecords();
+        new MetadataService.ReadInstalledPackageResult().getRecords();
+        new MetadataService.ReadCustomFieldResult().getRecords();
+        new MetadataService.ReadFieldSetResult().getRecords();
+        new MetadataService.ReadPicklistValueResult().getRecords();
+        new MetadataService.ReadRecordTypeResult().getRecords();
+        new MetadataService.ReadWebLinkResult().getRecords();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetRecordsTest5() { // elf patch
+        Test.startTest();
+        new MetadataService.ReadAddressSettingsResult().getRecords();
+        new MetadataService.ReadCaseSettingsResult().getRecords();
+        new MetadataService.ReadCustomObjectResult().getRecords();
+        new MetadataService.ReadLayoutResult().getRecords();
+        new MetadataService.ReadEmailTemplateResult().getRecords();
+        new MetadataService.ReadScontrolResult().getRecords();
+        new MetadataService.ReadApexPageResult().getRecords();
+        new MetadataService.ReadApexComponentResult().getRecords();
+        new MetadataService.ReadApexClassResult().getRecords();
+        new MetadataService.ReadApexTriggerResult().getRecords();
+        new MetadataService.ReadStaticResourceResult().getRecords();
+        new MetadataService.ReadDocumentResult().getRecords();
+        new MetadataService.ReadCustomLabelsResult().getRecords();
+        new MetadataService.ReadCustomLabelResult().getRecords();
+        new MetadataService.ReadAccountSettingsResult().getRecords();
+        new MetadataService.ReadQueueResult().getRecords();
+        new MetadataService.ReadCustomDataTypeResult().getRecords();
+        new MetadataService.ReadExternalDataSourceResult().getRecords();
+        new MetadataService.ReadGroupResult().getRecords();
+        new MetadataService.ReadBusinessProcessResult().getRecords();
+        new MetadataService.ReadCompactLayoutResult().getRecords();
+        new MetadataService.ReadSharingReasonResult().getRecords();
+        new MetadataService.ReadValidationRuleResult().getRecords();
+        new MetadataService.ReadReportTypeResult().getRecords();
+        new MetadataService.ReadReportResult().getRecords();
+        new MetadataService.ReadDashboardResult().getRecords();
+        new MetadataService.ReadAnalyticSnapshotResult().getRecords();
+        new MetadataService.ReadCustomPageWebLinkResult().getRecords();
+        new MetadataService.ReadQuickActionResult().getRecords();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetResultTest1() { // elf patch
         Test.startTest();
         new MetadataService.readWorkflowRuleResponse_element().getResult();
         new MetadataService.readSamlSsoConfigResponse_element().getResult();
@@ -1193,123 +1324,6 @@ private class MetadataServiceTest
         new MetadataService.readScontrolResponse_element().getResult();
         new MetadataService.readDataCategoryGroupResponse_element().getResult();
         new MetadataService.readValidationRuleResponse_element().getResult();
-        new MetadataService.readProfileResponse_element().getResult();
-        new MetadataService.readIdeasSettingsResponse_element().getResult();
-        new MetadataService.readConnectedAppResponse_element().getResult();
-        new MetadataService.readApexPageResponse_element().getResult();
-        new MetadataService.readProductSettingsResponse_element().getResult();
-        new MetadataService.readLiveAgentSettingsResponse_element().getResult();
-        new MetadataService.readOpportunitySettingsResponse_element().getResult();
-        new MetadataService.readLiveChatDeploymentResponse_element().getResult();
-        new MetadataService.readActivitiesSettingsResponse_element().getResult();
-        new MetadataService.readLayoutResponse_element().getResult();
-        new MetadataService.readWebLinkResponse_element().getResult();
-        new MetadataService.readSiteDotComResponse_element().getResult();
-        new MetadataService.readCompanySettingsResponse_element().getResult();
-        new MetadataService.readHomePageLayoutResponse_element().getResult();
-        new MetadataService.readDashboardResponse_element().getResult();
-        new MetadataService.readAssignmentRulesResponse_element().getResult();
-        new MetadataService.readAnalyticSnapshotResponse_element().getResult();
-        new MetadataService.readEscalationRuleResponse_element().getResult();
-        new MetadataService.readCustomSiteResponse_element().getResult();
-        new MetadataService.readGroupResponse_element().getResult();
-        new MetadataService.readReportTypeResponse_element().getResult();
-        new MetadataService.readQuickActionResponse_element().getResult();
-        new MetadataService.readCustomPageWebLinkResponse_element().getResult();
-        new MetadataService.readApexComponentResponse_element().getResult();
-        new MetadataService.readEntitlementTemplateResponse_element().getResult();
-        new MetadataService.readFlexiPageResponse_element().getResult();
-        new MetadataService.readWorkflowResponse_element().getResult();
-        new MetadataService.readWorkflowActionResponse_element().getResult();
-        new MetadataService.readAddressSettingsResponse_element().getResult();
-        new MetadataService.readContractSettingsResponse_element().getResult();
-        new MetadataService.readCustomObjectResponse_element().getResult();
-        new MetadataService.readTranslationsResponse_element().getResult();
-        new MetadataService.readRoleOrTerritoryResponse_element().getResult();
-        new MetadataService.readApexTriggerResponse_element().getResult();
-        new MetadataService.readCustomLabelsResponse_element().getResult();
-        new MetadataService.readSecuritySettingsResponse_element().getResult();
-        new MetadataService.readCallCenterResponse_element().getResult();
-        new MetadataService.readPicklistValueResponse_element().getResult();
-        new MetadataService.readRemoteSiteSettingResponse_element().getResult();
-        new MetadataService.readQuoteSettingsResponse_element().getResult();
-        new MetadataService.readSynonymDictionaryResponse_element().getResult();
-        new MetadataService.readPostTemplateResponse_element().getResult();
-        new MetadataService.readCustomTabResponse_element().getResult();
-        new MetadataService.readLetterheadResponse_element().getResult();
-        new MetadataService.readInstalledPackageResponse_element().getResult();
-        new MetadataService.readQueueResponse_element().getResult();
-        new MetadataService.readAuthProviderResponse_element().getResult();
-        new MetadataService.readEntitlementSettingsResponse_element().getResult();
-        new MetadataService.readCustomFieldResponse_element().getResult();
-        new MetadataService.readStaticResourceResponse_element().getResult();
-        new MetadataService.readEmailTemplateResponse_element().getResult();
-        new MetadataService.readSharingReasonResponse_element().getResult();
-        new MetadataService.readLiveChatButtonResponse_element().getResult();
-        new MetadataService.readNetworkResponse_element().getResult();
-        new MetadataService.readApprovalProcessResponse_element().getResult();
-        new MetadataService.readMilestoneTypeResponse_element().getResult();
-        new MetadataService.readAssignmentRuleResponse_element().getResult();
-        new MetadataService.readCompactLayoutResponse_element().getResult();
-        new MetadataService.readLiveChatAgentConfigResponse_element().getResult();
-        new MetadataService.readAccountSettingsResponse_element().getResult();
-        new MetadataService.readBusinessProcessResponse_element().getResult();
-        new MetadataService.readFlowResponse_element().getResult();
-        new MetadataService.readAutoResponseRuleResponse_element().getResult();
-        new MetadataService.readPermissionSetResponse_element().getResult();
-        new MetadataService.readBusinessHoursSettingsResponse_element().getResult();
-        new MetadataService.readForecastingSettingsResponse_element().getResult();
-        new MetadataService.readReportResponse_element().getResult();
-        new MetadataService.readAppMenuResponse_element().getResult();
-        new MetadataService.readListViewResponse_element().getResult();
-        new MetadataService.readOrderSettingsResponse_element().getResult();
-        new MetadataService.readCustomObjectTranslationResponse_element().getResult();
-        new MetadataService.readCustomApplicationResponse_element().getResult();
-        new MetadataService.readKnowledgeSettingsResponse_element().getResult();
-        new MetadataService.readCaseSettingsResponse_element().getResult();
-        new MetadataService.readApexClassResponse_element().getResult();
-        new MetadataService.readPackageResponse_element().getResult();
-        new MetadataService.readCommunityResponse_element().getResult();
-        new MetadataService.readDocumentResponse_element().getResult();
-        new MetadataService.readAutoResponseRulesResponse_element().getResult();
-        new MetadataService.readFolderResponse_element().getResult();
-        new MetadataService.readCustomApplicationComponentResponse_element().getResult();
-        new MetadataService.readFieldSetResponse_element().getResult();
-        new MetadataService.readSharingSetResponse_element().getResult();
-        new MetadataService.readHomePageComponentResponse_element().getResult();
-        new MetadataService.readReportFolderResponse_element().getResult();
-        new MetadataService.readDashboardFolderResponse_element().getResult();
-        new MetadataService.readFlowResponse_element().getResult();
-        new MetadataService.readFlowResponse_element().getResult();
-        new MetadataService.readDocumentFolderResponse_element().getResult();
-        new MetadataService.readEmailFolderResponse_element().getResult();
-        new MetadataService.readWorkflowTaskResponse_element().getResult();
-        new MetadataService.readWorkflowSendResponse_element().getResult();
-        new MetadataService.readWorkflowOutboundMessageResponse_element().getResult();
-        new MetadataService.readWorkflowKnowledgePublishResponse_element().getResult();
-        new MetadataService.readWorkflowFieldUpdateResponse_element().getResult();
-        new MetadataService.readWorkflowAlertResponse_element().getResult();
-        new MetadataService.readVisualizationPluginResponse_element().getResult();
-        new MetadataService.readCustomMetadataResponse_element().getResult();
-        new MetadataService.readNameSettingsResponse_element().getResult();
-        new MetadataService.readMarketingActionSettingsResponse_element().getResult();
-        new MetadataService.readCustomPermissionResponse_element().getResult();
-        new MetadataService.readAuraDefinitionBundleResponse_element().getResult();
-        new MetadataService.readCorsWhitelistOriginResponse_element().getResult();
-        new MetadataService.readManagedTopicsResponse_element().getResult();
-        new MetadataService.readTerritory2Response_element().getResult();
-        new MetadataService.readTerritory2ModelResponse_element().getResult();
-        new MetadataService.readTerritory2SettingsResponse_element().getResult();
-        new MetadataService.readTerritory2TypeResponse_element().getResult();
-        new MetadataService.readXOrgHubResponse_element().getResult();
-        new MetadataService.readActionLinkGroupTemplateResponse_element().getResult();
-        new MetadataService.readLicenseDefinitionResponse_element().getResult();
-        new MetadataService.readMarketingResourceTypeResponse_element().getResult();
-        new MetadataService.readMatchingRuleResponse_element().getResult();
-        new MetadataService.readMatchingRulesResponse_element().getResult();
-        new MetadataService.readNamedCredentialResponse_element().getResult();
-        new MetadataService.readPersonalJourneySettingsResponse_element().getResult();
-        new MetadataService.readSharingBaseRuleResponse_element().getResult();
         new MetadataService.readSharingCriteriaRuleResponse_element().getResult();
         new MetadataService.readSharingOwnerRuleResponse_element().getResult();
         new MetadataService.readSharingTerritoryRuleResponse_element().getResult();
@@ -1355,5 +1369,146 @@ private class MetadataServiceTest
         new MetadataService.readUserCriteriaResponse_element().getResult();
         new MetadataService.readWavexmdResponse_element().getResult();
         Test.stopTest();
-    }    
+    }
+
+    @IsTest
+    private static void elfMissingGetResultTest2() { // elf patch
+        Test.startTest();
+        new MetadataService.readProfileResponse_element().getResult();
+        new MetadataService.readIdeasSettingsResponse_element().getResult();
+        new MetadataService.readConnectedAppResponse_element().getResult();
+        new MetadataService.readApexPageResponse_element().getResult();
+        new MetadataService.readProductSettingsResponse_element().getResult();
+        new MetadataService.readLiveAgentSettingsResponse_element().getResult();
+        new MetadataService.readOpportunitySettingsResponse_element().getResult();
+        new MetadataService.readLiveChatDeploymentResponse_element().getResult();
+        new MetadataService.readActivitiesSettingsResponse_element().getResult();
+        new MetadataService.readLayoutResponse_element().getResult();
+        new MetadataService.readWebLinkResponse_element().getResult();
+        new MetadataService.readSiteDotComResponse_element().getResult();
+        new MetadataService.readCompanySettingsResponse_element().getResult();
+        new MetadataService.readHomePageLayoutResponse_element().getResult();
+        new MetadataService.readDashboardResponse_element().getResult();
+        new MetadataService.readAssignmentRulesResponse_element().getResult();
+        new MetadataService.readAnalyticSnapshotResponse_element().getResult();
+        new MetadataService.readEscalationRuleResponse_element().getResult();
+        new MetadataService.readCustomSiteResponse_element().getResult();
+        new MetadataService.readGroupResponse_element().getResult();
+        new MetadataService.readReportTypeResponse_element().getResult();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetResultTest3() { // elf patch
+        Test.startTest();
+        new MetadataService.readQuickActionResponse_element().getResult();
+        new MetadataService.readCustomPageWebLinkResponse_element().getResult();
+        new MetadataService.readApexComponentResponse_element().getResult();
+        new MetadataService.readEntitlementTemplateResponse_element().getResult();
+        new MetadataService.readFlexiPageResponse_element().getResult();
+        new MetadataService.readWorkflowResponse_element().getResult();
+        new MetadataService.readWorkflowActionResponse_element().getResult();
+        new MetadataService.readAddressSettingsResponse_element().getResult();
+        new MetadataService.readContractSettingsResponse_element().getResult();
+        new MetadataService.readCustomObjectResponse_element().getResult();
+        new MetadataService.readTranslationsResponse_element().getResult();
+        new MetadataService.readRoleOrTerritoryResponse_element().getResult();
+        new MetadataService.readApexTriggerResponse_element().getResult();
+        new MetadataService.readCustomLabelsResponse_element().getResult();
+        new MetadataService.readSecuritySettingsResponse_element().getResult();
+        new MetadataService.readCallCenterResponse_element().getResult();
+        new MetadataService.readPicklistValueResponse_element().getResult();
+        new MetadataService.readRemoteSiteSettingResponse_element().getResult();
+        new MetadataService.readQuoteSettingsResponse_element().getResult();
+        new MetadataService.readSynonymDictionaryResponse_element().getResult();
+        new MetadataService.readPostTemplateResponse_element().getResult();
+        new MetadataService.readCustomTabResponse_element().getResult();
+        new MetadataService.readLetterheadResponse_element().getResult();
+        new MetadataService.readInstalledPackageResponse_element().getResult();
+        new MetadataService.readQueueResponse_element().getResult();
+        new MetadataService.readAuthProviderResponse_element().getResult();
+        new MetadataService.readEntitlementSettingsResponse_element().getResult();
+        new MetadataService.readCustomFieldResponse_element().getResult();
+        new MetadataService.readStaticResourceResponse_element().getResult();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetResultTest4() { // elf patch
+        Test.startTest();
+        new MetadataService.readEmailTemplateResponse_element().getResult();
+        new MetadataService.readSharingReasonResponse_element().getResult();
+        new MetadataService.readLiveChatButtonResponse_element().getResult();
+        new MetadataService.readNetworkResponse_element().getResult();
+        new MetadataService.readApprovalProcessResponse_element().getResult();
+        new MetadataService.readMilestoneTypeResponse_element().getResult();
+        new MetadataService.readAssignmentRuleResponse_element().getResult();
+        new MetadataService.readCompactLayoutResponse_element().getResult();
+        new MetadataService.readLiveChatAgentConfigResponse_element().getResult();
+        new MetadataService.readAccountSettingsResponse_element().getResult();
+        new MetadataService.readBusinessProcessResponse_element().getResult();
+        new MetadataService.readFlowResponse_element().getResult();
+        new MetadataService.readAutoResponseRuleResponse_element().getResult();
+        new MetadataService.readPermissionSetResponse_element().getResult();
+        new MetadataService.readBusinessHoursSettingsResponse_element().getResult();
+        new MetadataService.readForecastingSettingsResponse_element().getResult();
+        new MetadataService.readReportResponse_element().getResult();
+        new MetadataService.readAppMenuResponse_element().getResult();
+        new MetadataService.readListViewResponse_element().getResult();
+        new MetadataService.readOrderSettingsResponse_element().getResult();
+        new MetadataService.readCustomObjectTranslationResponse_element().getResult();
+        new MetadataService.readCustomApplicationResponse_element().getResult();
+        new MetadataService.readKnowledgeSettingsResponse_element().getResult();
+        new MetadataService.readCaseSettingsResponse_element().getResult();
+        new MetadataService.readApexClassResponse_element().getResult();
+        new MetadataService.readPackageResponse_element().getResult();
+        new MetadataService.readCommunityResponse_element().getResult();
+        new MetadataService.readDocumentResponse_element().getResult();
+        new MetadataService.readAutoResponseRulesResponse_element().getResult();
+        new MetadataService.readFolderResponse_element().getResult();
+        new MetadataService.readCustomApplicationComponentResponse_element().getResult();
+        new MetadataService.readFieldSetResponse_element().getResult();
+        new MetadataService.readSharingSetResponse_element().getResult();
+        new MetadataService.readHomePageComponentResponse_element().getResult();
+        Test.stopTest();
+    }
+
+    @IsTest
+    private static void elfMissingGetResultTest5() { // elf patch
+        Test.startTest();
+        new MetadataService.readReportFolderResponse_element().getResult();
+        new MetadataService.readDashboardFolderResponse_element().getResult();
+        new MetadataService.readFlowResponse_element().getResult();
+        new MetadataService.readFlowResponse_element().getResult();
+        new MetadataService.readDocumentFolderResponse_element().getResult();
+        new MetadataService.readEmailFolderResponse_element().getResult();
+        new MetadataService.readWorkflowTaskResponse_element().getResult();
+        new MetadataService.readWorkflowSendResponse_element().getResult();
+        new MetadataService.readWorkflowOutboundMessageResponse_element().getResult();
+        new MetadataService.readWorkflowKnowledgePublishResponse_element().getResult();
+        new MetadataService.readWorkflowFieldUpdateResponse_element().getResult();
+        new MetadataService.readWorkflowAlertResponse_element().getResult();
+        new MetadataService.readVisualizationPluginResponse_element().getResult();
+        new MetadataService.readCustomMetadataResponse_element().getResult();
+        new MetadataService.readNameSettingsResponse_element().getResult();
+        new MetadataService.readMarketingActionSettingsResponse_element().getResult();
+        new MetadataService.readCustomPermissionResponse_element().getResult();
+        new MetadataService.readAuraDefinitionBundleResponse_element().getResult();
+        new MetadataService.readCorsWhitelistOriginResponse_element().getResult();
+        new MetadataService.readManagedTopicsResponse_element().getResult();
+        new MetadataService.readTerritory2Response_element().getResult();
+        new MetadataService.readTerritory2ModelResponse_element().getResult();
+        new MetadataService.readTerritory2SettingsResponse_element().getResult();
+        new MetadataService.readTerritory2TypeResponse_element().getResult();
+        new MetadataService.readXOrgHubResponse_element().getResult();
+        new MetadataService.readActionLinkGroupTemplateResponse_element().getResult();
+        new MetadataService.readLicenseDefinitionResponse_element().getResult();
+        new MetadataService.readMarketingResourceTypeResponse_element().getResult();
+        new MetadataService.readMatchingRuleResponse_element().getResult();
+        new MetadataService.readMatchingRulesResponse_element().getResult();
+        new MetadataService.readNamedCredentialResponse_element().getResult();
+        new MetadataService.readPersonalJourneySettingsResponse_element().getResult();
+        new MetadataService.readSharingBaseRuleResponse_element().getResult();
+        Test.stopTest();
+    }
 }

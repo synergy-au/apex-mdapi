@@ -4,8 +4,8 @@
             "path": "force-app",
             "default": true,
             "package": "ApexMDAPI",
-            "versionName": "Version 1.2",
-            "versionNumber": "1.2.0.NEXT"
+            "versionName": "Version 1.2.1",
+            "versionNumber": "1.2.1.NEXT"
         }
     ],
     "namespace": "",
@@ -13,6 +13,7 @@
     "sourceApiVersion": "47.0",
     "packageAliases": {
         "ApexMDAPI": "0Ho6F000000blNfSAI",
-        "ApexMDAPI@1.2.0-1": "04t2e0000000RpzAAE"
+        "ApexMDAPI@1.2.1-2": "04t2e0000000TSEAA2",
+        "ApexMDAPI@1.2.1-3": "04t2e0000000TSdAAM"
     }
 }
